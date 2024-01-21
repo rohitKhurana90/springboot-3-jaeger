@@ -1,0 +1,16 @@
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: localhost
+      port: 6831
+
+server:
+  port: 8090
+
+spring:
+  application:
+    name: SERVICE-2
+
+application:
+  name: SERVICE-2
